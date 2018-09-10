@@ -22,11 +22,11 @@ function driversByName (drivers){
     return sortedByName;
 }
 
-function addnumbers (num1, num2) {
-    return num1 + num2;
+function addnumbers (total, num2) {
+    return total+= num2;
 }
 
 function totalRevenue (drivers){
     const total = driversByRevenue(drivers).reduce(addnumbers);
-    console.log(total);
+    console.log(total.);
 }
