@@ -27,5 +27,16 @@ function totalRevenue (drivers){
 
     const sum = revenueArray.reduce((total, amount) =>  total + amount);
     return sum;
-
 }
+
+function averageRevenue (drivers){
+
+    return totalRevenue(drivers) / 5;
+    
+}
+
+
+
+
+
+
