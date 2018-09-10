@@ -27,5 +27,6 @@ function addnumbers (num1, num2) {
 }
 
 function totalRevenue (drivers){
-    driversByRevenue(drivers).reduce(addnumbers);
+    const total = driversByRevenue(drivers).reduce(addnumbers);
+    console.log(total);
 }
