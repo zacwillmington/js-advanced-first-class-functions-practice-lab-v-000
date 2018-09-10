@@ -25,6 +25,7 @@ function driversByName (drivers){
 function addnumbers (num) {
     let total;
      total = num++;
+     console.log(total);
 }
 
 function totalRevenue (drivers){
