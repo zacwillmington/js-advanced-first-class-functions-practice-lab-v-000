@@ -30,5 +30,5 @@ function addnumbers (num) {
 
 function totalRevenue (drivers){
     const total = driversByRevenue(drivers).reduce(addnumbers);
-    console.log(total);
+    
 }
