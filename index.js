@@ -23,12 +23,9 @@ function driversByName (drivers){
 }
 
 function addnumbers (num1, num2) {
-    
+    return num1 + num2;
 }
 
 function totalRevenue (drivers){
-    drivers.reduce();
+    driversByRevenue(drivers).reduce(addnumbers);
 }
-
-
-
