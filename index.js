@@ -23,12 +23,12 @@ function driversByName (drivers){
 }
 
 function addnumbers (num) {
-    let total;
-     total = num++;
-     console.log(total);
+    let to;
+     to = num++;
+     console.log(to);
 }
 
 function totalRevenue (drivers){
     const total = driversByRevenue(drivers).reduce(addnumbers);
-    
+
 }
