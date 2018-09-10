@@ -18,6 +18,6 @@ function driversByRevenue (drivers){
 
 function driversByName (drivers){
     const sortedByName = drivers.slice().sort((a,b) => a.name.localeCompare(b.name));
-    console.log(sortedByName);
+
     return sortedByName;
 }
