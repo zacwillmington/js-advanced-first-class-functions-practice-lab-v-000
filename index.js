@@ -23,7 +23,7 @@ function driversByName (drivers){
 }
 
 function addnumbers (total, num2) {
-    return total+= num2;
+    // return total+= num2;
 }
 
 function totalRevenue (drivers){
