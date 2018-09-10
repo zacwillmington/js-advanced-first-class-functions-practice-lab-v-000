@@ -22,7 +22,7 @@ function driversByName (drivers){
     return sortedByName;
 }
 
-function addnumbers (total, num) {
+function addnumbers (num) {
     let total;
      total = num++;
 }
