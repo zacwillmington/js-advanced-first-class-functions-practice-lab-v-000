@@ -24,7 +24,8 @@ function driversByName (drivers){
 
 function totalRevenue (drivers){
     const revenueArray = drivers.map(driver => driver.revenue);
-    console.log(revenueArray);
+
     const sum = revenueArray.reduce((total, amount) =>  total + amount);
+    return sum;
 
 }
