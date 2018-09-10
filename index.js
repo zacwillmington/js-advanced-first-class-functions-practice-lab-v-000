@@ -21,3 +21,14 @@ function driversByName (drivers){
 
     return sortedByName;
 }
+
+function addnumbers (num1, num2) {
+    
+}
+
+function totalRevenue (drivers){
+    drivers.reduce();
+}
+
+
+
