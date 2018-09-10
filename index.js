@@ -22,13 +22,9 @@ function driversByName (drivers){
     return sortedByName;
 }
 
-function addnumbers (num) {
-    let to;
-     to = num++;
-     console.log(num);
-}
-
 function totalRevenue (drivers){
-    const total = driversByRevenue(drivers).reduce(addnumbers);
+    const revenueArray = drivers.map(driver => driver.revenue);
+    console.log(revenueArray);
+    // const sum = driversByRevenue(drivers).reduce(total);
 
 }
